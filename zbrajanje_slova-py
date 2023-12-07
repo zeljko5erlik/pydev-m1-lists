@@ -10,23 +10,34 @@
 # print(f'Zbroj numericke reprezentacije slova u riječi {input_word} je: {letter_sum}.')
 
 
-letter_list = []
-letter_reprezentation = []
+# letter_list = []
+# letter_reprezentation = []
 
+
+# input_word = input('Unseite rijec cija slova zelite zbrojiti: ')
+
+# for letter in input_word:
+#     letter_list.append(letter)
+#     letter_reprezentation.append(ord(letter))
+
+
+# letter_sum = 0
+# for letter_number in letter_reprezentation:
+#     letter_sum += letter_number
+
+
+# print(letter_list)
+# print(letter_reprezentation)
+
+# print(f'Zbroj numericke reprezentacije slova u riječi {input_word} je: {letter_sum}.')
 
 input_word = input('Unseite rijec cija slova zelite zbrojiti: ')
 
-for letter in input_word:
-    letter_list.append(letter)
-    letter_reprezentation.append(ord(letter))
+letter_list = []
 
-
+letter_list = list(input_word)
 letter_sum = 0
-for letter_number in letter_reprezentation:
-    letter_sum += letter_number
-
-
-print(letter_list)
-print(letter_reprezentation)
+for letter in letter_list:
+    letter_sum += ord(letter)
 
 print(f'Zbroj numericke reprezentacije slova u riječi {input_word} je: {letter_sum}.')
