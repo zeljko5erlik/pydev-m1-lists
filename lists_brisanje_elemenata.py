@@ -20,3 +20,6 @@ for number in sorted(list_exclusion, reverse=True):
 print(numbers)
 print()
 print(numbers_revised)
+
+
+#ili jednostavno upotrijebiti del numbers[3 : 9]
