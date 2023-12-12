@@ -12,14 +12,20 @@ for number in range(list_number):
     print(f'{number + 1}. {shoping_list[number]}')
 print()
 
-for number in range(80):
-    print('*', end='')
-print()
+# for number in range(80):
+#     print('*', end='')
+# print()
+
+print('*' * 80, '\n \n')
 
 shoping_prices = []
 
+# for number in range(list_number):
+#     shoping_prices.append(int(input(f'Koliko ste platili za {shoping_list[number]}? (Unesite 0 ako nije kupljeno) ')))
+# print()
+
 for number in range(list_number):
-    shoping_prices.append(int(input(f'Koliko ste platili za {shoping_list[number]}? (Unesite 0 ako nije kupljeno) ')))
+    shoping_prices.append(float(input(f'Koliko ste platili za {shoping_list[number]}? (Unesite 0 ako nije kupljeno) ')))
 print()
 
 print('Lista namirnica sa cijenama: ')

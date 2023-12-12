@@ -10,5 +10,7 @@ for number in range(tree_hight):
     print('*' * star_counter, end='\n')
     star_counter += 2
     space_counter += 1
-print(' ' * (tree_hight - 1), '| |')
+
+for i in range(2):
+    print(' ' * (tree_hight - 1), '| |')
     
